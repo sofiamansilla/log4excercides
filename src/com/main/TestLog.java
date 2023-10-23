@@ -1,6 +1,6 @@
 package com.main;
 
-import java.util.logging.Logger;
+import org.apache.log4j.Logger;
 
 public class TestLog {
 
@@ -8,11 +8,13 @@ public class TestLog {
     public static void main(String[] args) {
 
         Calculator calculator = new Calculator(3, 1);
-        int adittion = calculator.sum();
-        System.out.println("The result of the sum is: " + adittion);
+        int addition = calculator.sum();
+        System.out.println("The result of the sum is: " + addition);
 
         Calculator calculator1 = new Calculator(1,0);
-        calculator1.divition();
+        calculator1.division();
+
+
 
 
     }

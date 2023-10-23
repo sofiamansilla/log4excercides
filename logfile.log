@@ -1,0 +1,20 @@
+[2023-10-23 01:22:53] [ INFO ] [Calculator:45] Let's start dividing 1/0
+[2023-10-23 01:22:53] [ DEBUG] [Calculator:53] The division has been completed
+[2023-10-23 01:26:01] [ INFO ] [Calculator:45] Let's start dividing 0/1
+[2023-10-23 01:26:01] [ DEBUG] [Calculator:53] The division has been completed
+[2023-10-23 01:26:14] [ INFO ] [Calculator:45] Let's start dividing 1/0
+[2023-10-23 01:26:14] [ DEBUG] [Calculator:53] The division has been completed
+[2023-10-23 01:29:47] [ INFO ] [Calculator:45] Let's start dividing 1/0
+[2023-10-23 01:29:47] [ DEBUG] [Calculator:53] The division has been completed
+[2023-10-23 01:33:20] [ INFO ] [Calculator:45] Let's start dividing 1/0
+[2023-10-23 01:33:20] [ ERROR] [Calculator:50] An error ocurred while dividing: 
+java.lang.ArithmeticException: / by zero
+	at com.main.Calculator.division(Calculator.java:48)
+	at com.main.TestLog.main(TestLog.java:15)
+[2023-10-23 01:34:20] [ INFO ] [Calculator:45] Let's start dividing 1/0
+[2023-10-23 01:34:20] [ DEBUG] [Calculator:53] The division has been completed
+[2023-10-23 01:34:44] [ INFO ] [Calculator:45] Let's start dividing 1/0
+[2023-10-23 01:34:44] [ ERROR] [Calculator:50] An error ocurred while dividing: 
+java.lang.ArithmeticException: / by zero
+	at com.main.Calculator.division(Calculator.java:48)
+	at com.main.TestLog.main(TestLog.java:15)
