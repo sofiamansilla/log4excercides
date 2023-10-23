@@ -31,15 +31,24 @@ public class Calculator {
     }
 
     public int substract() {
-        return value1 + value2;
+        return value1 - value2;
     }
 
     public int multiplication() {
-        return value1 + value2;
+        return value1 * value2;
     }
 
-    public int divition() {
-        return value1 + value2;
+    public double divition() {
+        double result;
+        try {
+            result = (double) value1 / value2;
+        } catch (Exception e) {
+            return 0;
+        }
+        return result;
     }
 
-}
+
+
+};
+

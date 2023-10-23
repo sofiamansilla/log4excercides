@@ -11,6 +11,10 @@ public class TestLog {
         int adittion = calculator.sum();
         System.out.println("The result of the sum is: " + adittion);
 
+        Calculator calculator1 = new Calculator(1,0);
+        calculator1.divition();
+
+
     }
 
 }
